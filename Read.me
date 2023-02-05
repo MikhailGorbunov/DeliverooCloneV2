@@ -1,0 +1,147 @@
+# Deliverro-clone: Food ordering Mobile App
+
+<b> Contributors: [Mikhail](https://github.com/MikhailGorbunov) </b>
+
+A full stack React Native mobile application (Android) that allows users to install on an Android phone, be able to search for a restaurant and menu, select food item and order. We will use Expo and a Firebase database to store the data.
+
+<!-- restaurant bookings through their unique profile. They can browse restaurant availability, create/review/delete bookings, as well as adding restaurants to their favourites. The backend is built in Java with Spring. -->
+
+<!-- 🚧 <b> NB: This is app has reached its MVP, but is still under construction</b> 🚧 -->
+
+## Contents
+
+- [Showcase](#showcase)
+- [Technologies](#technologies)
+- [Brief](#brief)
+- [Challenges](#challenges)
+- [Installation](#installation)
+
+<br>
+
+## Showcase
+
+<br>
+
+## Technologies
+
+These are the main technologies we used to contruct the project.
+
+- ![ReactNative]
+- ![Java]
+- ![Spring]
+- ![Hibernate]
+- ![PostgreSQL]
+- ![IntelliJ_IDEA]
+- React Native navigation
+- Sanity
+- Redux
+- tailwind
+- docker
+- github
+
+<br>
+
+## Brief
+
+Our initial brief was extremely ambitious, due to the face we underestimated the challenges we would encounter using React Native. Below is a revised version of that brief!
+
+**MVP**
+
+- [ ] Display recipes (with images)
+- [ ] Be able to search cocktail recipe by name
+- [ ] Be able to leave a comment under each recipe
+- [ ] Data is stored in a database accessible through a RESTful API
+- [ ] Have a README file with screenshots/videos and running instructions.
+
+<!-- API find or make -->
+
+**Extensions **
+
+Some of the features currently in progress:
+
+- [ ] Be able to leave a comment under each recipe
+- [ ] Have a two colour scheme being both accessible (dark and light)
+- [ ] Comments have tags
+- [ ] Recipe can be searched by the tag
+- [ ] Be able to search cocktail recipe by ingredient
+- [ ] Calculate recipe portion
+- [ ] Be able to login
+- [ ] Be able to add recipe to a shopping list
+- [ ] Be able to customize recipe
+
+**Super Extensions **
+
+- [ ] Create a shopping bot
+- [ ] Be able to add recipe to a party planner
+- [ ] Create an email invitation
+- [ ] Add a cloud (Firebase) ![Firebase]
+- [ ] Be able to make their own recipe
+- [ ] To be able to upload the app to google play
+
+<br>
+
+## Challenges
+
+Here are some of the things we've found difficult:
+
+- Learning a new framework while planning & building
+- Learning how Reactive Native works
+- Making our database connect with our mobile app
+- File structuring & naming conventions as the project scaled up in size
+- Managing dependency and version issues
+
+<br>
+
+## Installation
+
+Note: This setup tutorial assumes that you already have installed a package manager like npm and the version control system git.
+**From Terminal:**
+
+<b>
+  In terminal: 
+  npm i -g expo-cli (instal EXPO)
+  npx create-expo-app deliveroo-clone (create project called deliveroo-clone)
+  cd deliveroo-clone/
+  code. (open Visual Studio Code)
+
+Install app:
+install docker (for keeping all packages programms consistent and uptodate on all machines)
+
+VS code extensions:
+Dev container
+Docker
+VS Code ES7+ React/Redux/React-Native/JS snippets
+GitHub Repositories
+Tabnine AI Autocomplete for Javascript...
+Prettier Formatter for Visual Studio Code
+
+Docker:
+Create Dockerfile, .dockerignore
+docker build -t deliveroo/deliveroo:1.0
+
+Tailwind: (https://tailwindcss.com/docs/installation)(https://www.nativewind.dev/guides/babel)
+npm install tailwindcss-react-native
+npm install --save-dev tailwindcss
+npx tailwindcss init
+https://stackoverflow.com/questions/67618967/unable-to-find-expo-in-this-project-have-you-run-yarn-npm-install-yet
+
+Extension Tailwind CSS IntelliSense
+
+Install react-native navigation
+https://reactnavigation.org/docs/getting-started/
+
+https://www.npmjs.com/package/react-native-heroicons
+npm i react-native-heroicons react-native-svg
+https://heroicons.com/
+npx expo install react-native-svg (to see heroicons)
+</b>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+
+[reactnative]: https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[java]: https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white
+[spring]: https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white
+[hibernate]: https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=Hibernate&logoColor=white
+[postgresql]: https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white
+[intellij_idea]: https://img.shields.io/badge/IntelliJ_IDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white
+[firebase]: https://www.vectorlogo.zone/logos/firebase/firebase-ar21.svg
