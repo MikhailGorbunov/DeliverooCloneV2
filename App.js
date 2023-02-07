@@ -8,10 +8,12 @@ const Stack = createNativeStackNavigator();
 
 export default function App() {
   return (
+    // <React.StrictMode>
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen name="Home" component={HomeScreen} />
       </Stack.Navigator>
     </NavigationContainer>
+    // </React.StrictMode>
   );
 }
